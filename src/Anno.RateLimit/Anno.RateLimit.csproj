@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>$(StandardTfms);net461;net451</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Du yanming</Authors>
+    <Company>Du yanming</Company>
+    <Product>Anno.RateLimit</Product>
+    <Description>令牌桶、漏桶限流组件</Description>
+    <PackageId>Anno.RateLimit</PackageId>
+  </PropertyGroup>
+</Project>

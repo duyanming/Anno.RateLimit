@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31410.414
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D457A023-5DD3-416C-BACA-8A90F7279852}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{91CEE189-2B74-4F07-9C8F-AAF18C2A0824}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{9801F6D0-811E-45E4-AE3D-7FB0BE6EABCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anno.RateLimit", "src\Anno.RateLimit\Anno.RateLimit.csproj", "{209752FF-E68F-4A52-B4F6-2C0686936749}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "builder", "builder", "{9979663B-87CB-46F8-A3BB-E1FE65E3CEF0}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		key.snk = key.snk
+		LICENSE = LICENSE
+		logo.jpg = logo.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{ABB550BC-C4B3-4109-AFCB-A7217A542CDA}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anno.RateLimit.ConsoleTestProject", "test\Anno.RateLimit.ConsoleTestProject\Anno.RateLimit.ConsoleTestProject.csproj", "{290B757D-1388-472F-A825-258B0A578CFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{209752FF-E68F-4A52-B4F6-2C0686936749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209752FF-E68F-4A52-B4F6-2C0686936749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209752FF-E68F-4A52-B4F6-2C0686936749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209752FF-E68F-4A52-B4F6-2C0686936749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290B757D-1388-472F-A825-258B0A578CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290B757D-1388-472F-A825-258B0A578CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290B757D-1388-472F-A825-258B0A578CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290B757D-1388-472F-A825-258B0A578CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{209752FF-E68F-4A52-B4F6-2C0686936749} = {D457A023-5DD3-416C-BACA-8A90F7279852}
+		{290B757D-1388-472F-A825-258B0A578CFB} = {91CEE189-2B74-4F07-9C8F-AAF18C2A0824}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {162CF3AF-6370-4E28-BD95-D173B8E32D28}
+	EndGlobalSection
+EndGlobal
