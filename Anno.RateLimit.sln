@@ -16,7 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "builder", "builder", "{9979
 		Directory.Build.props = Directory.Build.props
 		key.snk = key.snk
 		LICENSE = LICENSE
-		logo.jpg = logo.jpg
+		logo.png = logo.png
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{ABB550BC-C4B3-4109-AFCB-A7217A542CDA}"
@@ -24,7 +24,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{ABB550BC-C4B
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anno.RateLimit.ConsoleTestProject", "test\Anno.RateLimit.ConsoleTestProject\Anno.RateLimit.ConsoleTestProject.csproj", "{290B757D-1388-472F-A825-258B0A578CFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anno.RateLimit.ConsoleTestProject", "test\Anno.RateLimit.ConsoleTestProject\Anno.RateLimit.ConsoleTestProject.csproj", "{290B757D-1388-472F-A825-258B0A578CFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
